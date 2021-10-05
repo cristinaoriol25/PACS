@@ -4,6 +4,7 @@
 
 #include <Eigen/Dense>
 
+#define EIGEN_DONT_VECTORIZE
 
 const int MAX_VAL = 3;
 
