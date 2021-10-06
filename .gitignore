@@ -6,3 +6,15 @@ lab1_materials/matrices/my_eigen_matmult
 lab1_materials/matrices/my_eigen_matmult_no_vect
 
 lab1_materials/matrices/logs/
+
+lab1_materials/matrices/bin/
+
+lab1_materials/matrices/lib/python3.8/site-packages/__pycache__/
+
+lab1_materials/matrices/lib/python3.8/site-packages/
+
+lab1_materials/matrices/lib64
+
+*.cfg
+
+lab1_materials/matrices/share/python-wheels/
