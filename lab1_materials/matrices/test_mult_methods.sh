@@ -7,7 +7,7 @@ for ex in $executables; do
   for n in $sizes; do
     echo "Size ${n}..."
     # {time -o "./${ex}" ${n}} 2> "logs/${ex}-${n}.log"
-    \time -o "logs/${ex}-${n}.log" "./${ex}" ${n}
+    \time -f "%U %S %e" -o "logs/${ex}-${n}.log" "./${ex}" ${n}
   done
   echo "-----------------------"
 done
