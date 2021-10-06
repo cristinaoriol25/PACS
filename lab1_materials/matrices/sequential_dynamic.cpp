@@ -81,9 +81,9 @@ int main(int argc, char** argv) {
   const size_t N = atoi(argv[1]);
   Matrix A(N,N), B(N,N), C;
   mult(A,B,C);
-  std::cout << "A:\n" << A.to_string() << "\n"
-            << "B:\n" << B.to_string() << "\n"
-            << "A*B:\n" << C.to_string() << "\n";
+  // std::cout << "A:\n" << A.to_string() << "\n"
+  //           << "B:\n" << B.to_string() << "\n"
+  //           << "A*B:\n" << C.to_string() << "\n";
 
   return 0;
 }
