@@ -1,5 +1,7 @@
 
 import argparse
+import pandas as pd
+import matplotlib.pyplot as plt
 
 def main(args):
     df  = pd.read_csv(args.log, sep=" ")
