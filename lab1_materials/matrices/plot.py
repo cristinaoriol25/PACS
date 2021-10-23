@@ -12,7 +12,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('-l', '--log', help='log',
-                        type=str, default="logs/comparison.log")
+                        type=str, default="log/comparison.log")
 
     args = parser.parse_args()
     main(args)
