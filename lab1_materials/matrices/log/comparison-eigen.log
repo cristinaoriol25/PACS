@@ -8,13 +8,7 @@ my_eigen_matmult 2000 1.17 0.00 1.17
 my_eigen_matmult 2000 1.17 0.00 1.18
 my_eigen_matmult 2000 1.17 0.00 1.18
 my_eigen_matmult 2000 1.16 0.00 1.17
-my_eigen_matmult 4000 6.54 0.01 6.56
-my_eigen_matmult 4000 0.11 0.00 0.12
-my_eigen_matmult 4000 4.47 0.02 4.50
-my_eigen_matmult 4000 0.45 0.02 0.48
-my_eigen_matmult 4000 0.01 0.00 0.01
-my_eigen_matmult 4000 0.02 0.00 0.03
-my_eigen_matmult 4000 my_eigen_matmult 2000 1.17 0.01 1.18
+my_eigen_matmult 2000 1.17 0.01 1.18
 my_eigen_matmult 2000 1.17 0.01 1.18
 my_eigen_matmult 2000 1.16 0.01 1.17
 my_eigen_matmult 2000 1.17 0.00 1.18

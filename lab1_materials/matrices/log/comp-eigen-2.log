@@ -14,7 +14,7 @@ my_eigen_matmult 4000 4.47 0.02 4.50
 my_eigen_matmult 4000 0.45 0.02 0.48
 my_eigen_matmult 4000 0.01 0.00 0.01
 my_eigen_matmult 4000 0.02 0.00 0.03
-my_eigen_matmult 4000 my_eigen_matmult 2000 1.17 0.01 1.18
+my_eigen_matmult 2000 1.17 0.01 1.18
 my_eigen_matmult 2000 1.17 0.01 1.18
 my_eigen_matmult 2000 1.16 0.01 1.17
 my_eigen_matmult 2000 1.17 0.00 1.18
@@ -126,7 +126,7 @@ my_eigen_matmult 2000 0.11 0.01 0.12
 my_eigen_matmult 2000 1.17 0.01 1.18
 my_eigen_matmult 2200 1.06 0.00 1.07
 my_eigen_matmult 2200 0.38 0.01 0.39
-my_eigen_matmult 2200 my_eigen_matmult 10000 139.18 0.13 139.32
+my_eigen_matmult 10000 139.18 0.13 139.32
 my_eigen_matmult 10000 139.29 0.12 139.43
 my_eigen_matmult 10000 139.27 0.13 139.40
 my_eigen_matmult 10000 139.33 0.13 139.47
@@ -134,7 +134,7 @@ my_eigen_matmult 10000 139.20 0.13 139.33
 my_eigen_matmult 10000 139.32 0.12 139.45
 my_eigen_matmult 10000 30.51 0.13 30.65
 my_eigen_matmult 10000 0.39 0.02 0.42
-my_eigen_matmult 10000 my_eigen_matmult 2000 1.17 0.00 1.18
+my_eigen_matmult 2000 1.17 0.00 1.18
 my_eigen_matmult 2000 1.20 0.00 1.21
 my_eigen_matmult 2000 1.16 0.00 1.17
 my_eigen_matmult 2000 1.17 0.00 1.18

@@ -2,9 +2,24 @@
 #include <array>
 #include <random>
 
-#include <Eigen/Dense>
+// #include <Eigen/Dense>
+// #ifndef EIGEN_DONT_VECTORIZE
+//    #define EIGEN_DONT_VECTORIZE
+//  #endif
+// // #define EIGEN_DONT_VECTORIZE
+//
+// // #pragma message(STRING(EIGEN_VECTORIZE))
+// // #warning STRIEIGEN_VECTORIZENG(EIGEN_VECTORIZE)
+// // #EIGEN_VECTORIZE
+//
+// #ifdef EIGEN_VECTORIZE
+//
+// int main(){
+//   std::cout << "asjdhgousdhsoa\n";
+// }
+//
+// #else
 
-#define EIGEN_DONT_VECTORIZE
 
 const int MAX_VAL = 3;
 
@@ -14,6 +29,7 @@ void testEigen(const size_t N) {
   using namespace Eigen;
   MatrixXd A = MatrixXd::Random(N,N), B = MatrixXd::Random(N,N);
   MatrixXd C = A*B;
+}
 
 int main(int argc, char** argv) {
   testEigen(atoi(argv[1]));
