@@ -9,11 +9,14 @@
 const int MAX_VAL = 3;
 
 
-int main(int argc, char** argv) {
+
+void testEigen(const size_t N) {
   using namespace Eigen;
-  const size_t N = atoi(argv[1]);
   MatrixXd A = MatrixXd::Random(N,N), B = MatrixXd::Random(N,N);
   MatrixXd C = A*B;
+
+int main(int argc, char** argv) {
+  testEigen(atoi(argv[1]));
   // std::cout << A<< "\n\n"<< B<< "\n\n"<< C << "\n";
   /*mult(A,B,C);
   std::cout << "A:\n" << A.to_string() << "\n"
