@@ -1,5 +1,5 @@
 # TODO: time pasandoles distintos tamaños de matrices
-sizes="2000 4000 8000 16000 50000 100000"
+sizes="2000 2200 2400 2800 3000"
 executables="my_eigen_matmult my_eigen_matmult_no_vect"
 repeat=10
 
