@@ -265,7 +265,7 @@ my_eigen_matmult 2000 1.17 0.01 1.18
 my_eigen_matmult 2000 1.17 0.00 1.18
 my_eigen_matmult 2000 1.16 0.00 1.18
 my_eigen_matmult 2200 1.54 0.01 1.56
-my_eigen_matmult 2200 my_eigen_matmult_no_vect 2000 2.29 0.00 2.30
+my_eigen_matmult_no_vect 2000 2.29 0.00 2.30
 my_eigen_matmult_no_vect 2000 2.29 0.01 2.31
 my_eigen_matmult_no_vect 2000 2.29 0.00 2.30
 my_eigen_matmult_no_vect 2000 2.29 0.00 2.30

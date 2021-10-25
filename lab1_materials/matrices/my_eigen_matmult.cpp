@@ -20,11 +20,5 @@ void testEigen(const size_t N) {
 
 int main(int argc, char** argv) {
   testEigen(atoi(argv[1]));
-  // std::cout << A<< "\n\n"<< B<< "\n\n"<< C << "\n";
-  //mult(A,B,C);
-  // std::cout << "A:\n" << A << "\n"
-  //           << "B:\n" << B << "\n"
-  //           << "A*B:\n" << C << "\n";
-
   return 0;
 }
