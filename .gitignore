@@ -23,5 +23,5 @@ lab1_materials/matrices/share/python-wheels/
 
 *logs*
 
-lab2/src/sequential
-lab2/src/my_eigen_matmult
+lab2/*/sequential
+lab2/*/my_eigen_matmult
