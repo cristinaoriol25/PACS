@@ -10,22 +10,29 @@
 const int MAX_VAL = 3;
 
 
+double as_seconds(const struct timeval& tval) {
+  return double(tval.tv_sec)+double(tval.tv_usec)*1e-6;
+}
+
+double elapsed_seconds(const struct timeval& tval_ini, const struct timeval& tval_end) {
+  return as_seconds(tval_end) - as_seconds(tval_ini);
+}
+
 void testEigen(const size_t N) {
   using namespace Eigen; using namespace std;
   struct timeval tval_ini, tval_end; // timestamps
-  float t_init, t_mult; // seconds for ini and mult
   // Get timestamps:
   gettimeofday(&tval_ini, NULL);
   MatrixXd A = MatrixXd::Random(N,N), B = MatrixXd::Random(N,N), C;
   gettimeofday(&tval_end, NULL);
   // initialization time in sec:
-  t_init = tval_end.tv_usec - tval_ini.tv_usec;
+  auto t_init = elapsed_seconds(tval_ini, tval_end);//tval_end.tv_usec - tval_ini.tv_usec;
 
   // Same for the multiplication:
   gettimeofday(&tval_ini, NULL);
   C = A*B;
   gettimeofday(&tval_end, NULL);
-  t_mult = tval_end.tv_usec - tval_ini.tv_usec;
+  auto t_mult = elapsed_seconds(tval_ini, tval_end);//tval_end.tv_usec - tval_ini.tv_usec;
 
   // cout << "Seconds: " << timestamp.tv_sec << endl
   //     << "Microseconds: " << timestamp.tv_usec << endl;

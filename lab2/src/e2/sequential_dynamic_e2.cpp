@@ -83,28 +83,36 @@ void mult(const Matrix& A, const Matrix& B, Matrix& res) {
 }
 
 
+double as_seconds(const struct timeval& tval) {
+  return double(tval.tv_sec)+double(tval.tv_usec)*1e-6;
+}
+
+double elapsed_seconds(const struct timeval& tval_ini, const struct timeval& tval_end) {
+  return as_seconds(tval_end) - as_seconds(tval_ini);
+}
+
 int main(int argc, char** argv) {
   using namespace std;
   const size_t N = atoi(argv[1]);
 
   struct timeval tval_ini, tval_end; // timestamps
-  float t_init, t_mult; // seconds for ini and mult
+  //float t_init, t_mult; // seconds for ini and mult
   // Get timestamps:
   gettimeofday(&tval_ini, NULL);
   Matrix A(N,N), B(N,N), C;
   gettimeofday(&tval_end, NULL);
   // initialization time in sec:
-  t_init = tval_end.tv_usec - tval_ini.tv_usec;
+  auto t_init = elapsed_seconds(tval_ini, tval_end);//tval_end.tv_usec - tval_ini.tv_usec;
 
   // Same for the multiplication:
   gettimeofday(&tval_ini, NULL);
   mult(A,B,C);
   gettimeofday(&tval_end, NULL);
-  t_mult = tval_end.tv_usec - tval_ini.tv_usec;
+  auto t_mult = elapsed_seconds(tval_ini, tval_end);//tval_end.tv_usec - tval_ini.tv_usec;
 
   // cout << "Seconds: " << timestamp.tv_sec << endl
   //     << "Microseconds: " << timestamp.tv_usec << endl;
-  std::cout << fixed << setprecision(5) << t_init*1e-6 << " "
-            << fixed << setprecision(5) << t_mult*1e-6 << " ";
+  std::cout << fixed << setprecision(5) << t_init << " "
+            << fixed << setprecision(5) << t_mult << " ";
   return 0;
 }
