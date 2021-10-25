@@ -7,6 +7,10 @@
 using namespace std;
 
 
+// Nota: https://man7.org/linux/man-pages/man2/gettimeofday.2.html
+// POSIX.1-2008 marks gettimeofday() as obsolete,
+//        recommending the use of clock_gettime(2) instead.
+
 
 const double MAX_VAL = 3;
 
