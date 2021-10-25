@@ -17,8 +17,8 @@ void testEigen(const size_t N) {
   t_mult = clock();
   MatrixXd C = A*B;
   t_mult = clock()- t_mult;
-  std::cout << fixed << setprecision(5) << ((float)t_ini)/CLOCKS_PER_SEC << "\t"
-            << fixed << setprecision(5) << ((float)t_mult)/CLOCKS_PER_SEC << "\n";
+  std::cout << fixed << setprecision(5) << ((float)t_ini)/CLOCKS_PER_SEC << " "
+            << fixed << setprecision(5) << ((float)t_mult)/CLOCKS_PER_SEC << " ";
 }
 
 
