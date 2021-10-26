@@ -12,6 +12,9 @@ using namespace std;
 //        recommending the use of clock_gettime(2) instead.
 
 
+
+// TODO: strace, etc
+
 const double MAX_VAL = 3;
 
 
