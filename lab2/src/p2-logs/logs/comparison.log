@@ -1,0 +1,139 @@
+method N clk(ini) clk(mult) User(s) System(s) Real(s)
+sequential 800 Command terminated by signal 2
+0.01 0.00 0.01
+sequential 800 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 800 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 800 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 800 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 800 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 800 Command terminated by signal 2
+0.00 0.00 0.02
+sequential 800 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 800 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 800 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 1000 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 1000 Command terminated by signal 2
+0.46 0.03 0.50
+sequential 1000 Command terminated by signal 2
+0.15 0.01 0.19
+sequential 1000 Command terminated by signal 2
+0.14 0.00 0.15
+sequential 1000 Command terminated by signal 2
+0.15 0.01 0.17
+sequential 1000 Command terminated by signal 2
+0.45 0.03 0.50
+sequential 1000 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 1000 Command terminated by signal 2
+0.00 0.00 0.02
+sequential 1000 Command terminated by signal 2
+0.00 0.00 0.02
+sequential 1000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1200 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1200 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 1200 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 1200 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1200 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1200 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1200 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 1200 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1200 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1200 Command terminated by signal 2
+0.18 0.03 0.23
+sequential 1500 Command terminated by signal 2
+0.42 0.07 0.50
+sequential 1500 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 1500 Command terminated by signal 2
+0.00 0.00 0.02
+sequential 1500 Command terminated by signal 2
+0.00 0.00 0.02
+sequential 1500 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1500 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1500 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1500 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 1500 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 1500 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 2000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 2000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 2000 Command terminated by signal 2
+0.00 0.00 0.02
+sequential 2000 Command terminated by signal 2
+0.00 0.00 0.02
+sequential 2000 Command terminated by signal 2
+0.00 0.00 0.02
+sequential 2000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 2000 Command terminated by signal 2
+0.00 0.01 0.02
+sequential 2000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 2000 Command terminated by signal 2
+0.28 0.03 0.31
+sequential 2000 Command terminated by signal 2
+0.46 0.03 0.50
+sequential 3000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 3000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 3000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 3000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 3000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 3000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 3000 Command terminated by signal 2
+0.01 0.00 0.02
+sequential 3000 Command terminated by signal 2
+0.00 0.00 0.02
+sequential 3000 Command terminated by signal 2
+0.00 0.00 0.02
+sequential 3000 Command terminated by signal 2
+0.01 0.00 0.02
+my_eigen_matmult 800 Command terminated by signal 2
+0.01 0.00 0.02
+my_eigen_matmult 800 Command terminated by signal 2
+0.01 0.00 0.02
+my_eigen_matmult 800 Command terminated by signal 2
+0.01 0.00 0.02
+my_eigen_matmult 800 Command terminated by signal 2
+0.01 0.00 0.02
+my_eigen_matmult 800 Command terminated by signal 2
+0.00 0.00 0.02
+my_eigen_matmult 800 Command terminated by signal 2
+0.00 0.01 0.02
+my_eigen_matmult 800 0.01562 0.07812 0.07 0.03 0.11
+my_eigen_matmult 800 0.03125 0.07812 0.09 0.01 0.11
+my_eigen_matmult 800 0.03125 0.07812 0.09 0.03 0.12
+my_eigen_matmult 800 0.01562 0.07812 0.07 0.03 0.11
+my_eigen_matmult 1000 0.03125 0.14062 0.15 0.03 0.19
+my_eigen_matmult 1000 

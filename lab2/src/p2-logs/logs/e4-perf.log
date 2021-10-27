@@ -1,0 +1,79 @@
+sequential with CLOCK:
+sequential with CLOCK:
+failed to get cpuid string for PMU hisi_sccl1_l3c14
+failed to get cpuid string for PMU hisi_sccl7_l3c23
+failed to get cpuid string for PMU hisi_sccl5_l3c30
+failed to get cpuid string for PMU hisi_sccl3_l3c6
+failed to get cpuid string for PMU hisi_sccl1_l3c15
+failed to get cpuid string for PMU hisi_sccl5_l3c31
+failed to get cpuid string for PMU hisi_sccl7_l3c22
+failed to get cpuid string for PMU hisi_sccl3_l3c7
+Workload failed: Permission denied
+Workload failed: Permission denied
+Workload failed: Permission denied
+Workload failed: Permission denied
+Workload failed: Permission denied
+-----------------------
+sequential with gettimeofday:
+failed to get cpuid string for PMU hisi_sccl1_l3c14
+failed to get cpuid string for PMU hisi_sccl7_l3c23
+failed to get cpuid string for PMU hisi_sccl5_l3c30
+failed to get cpuid string for PMU hisi_sccl3_l3c6
+failed to get cpuid string for PMU hisi_sccl1_l3c15
+failed to get cpuid string for PMU hisi_sccl5_l3c31
+failed to get cpuid string for PMU hisi_sccl7_l3c22
+failed to get cpuid string for PMU hisi_sccl3_l3c7
+1.40461 161.72102 1.40410 161.53419 1.40418 161.52780 1.40428 161.43735 1.40501 161.51614 
+ Performance counter stats for './e2/sequential 3000' (5 runs):
+
+         162944.09 msec task-clock                #    0.999 CPUs utilized            ( +-  0.03% )
+               741      context-switches          #    0.005 K/sec                    ( +-  0.45% )
+                 0      cpu-migrations            #    0.000 K/sec                    ( +-100.00% )
+              4172      page-faults               #    0.026 K/sec                    ( +-  0.01% )
+      423646366789      cycles                    #    2.600 GHz                      ( +-  0.03% )
+      199620449342      instructions              #    0.47  insn per cycle           ( +-  0.00% )
+   <not supported>      branches                                                    
+          21522542      branch-misses                                                 ( +-  0.05% )
+
+           163.175 +- 0.125 seconds time elapsed  ( +-  0.08% )
+
+-----------------------
+my_eigen_matmult with CLOCK:
+failed to get cpuid string for PMU hisi_sccl1_l3c14
+failed to get cpuid string for PMU hisi_sccl7_l3c23
+failed to get cpuid string for PMU hisi_sccl5_l3c30
+failed to get cpuid string for PMU hisi_sccl3_l3c6
+failed to get cpuid string for PMU hisi_sccl1_l3c15
+failed to get cpuid string for PMU hisi_sccl5_l3c31
+failed to get cpuid string for PMU hisi_sccl7_l3c22
+failed to get cpuid string for PMU hisi_sccl3_l3c7
+Workload failed: Permission denied
+Workload failed: Permission denied
+Workload failed: Permission denied
+Workload failed: Permission denied
+Workload failed: Permission denied
+-----------------------
+my_eigen_matmult with gettimeofday:
+failed to get cpuid string for PMU hisi_sccl1_l3c14
+failed to get cpuid string for PMU hisi_sccl7_l3c23
+failed to get cpuid string for PMU hisi_sccl5_l3c30
+failed to get cpuid string for PMU hisi_sccl3_l3c6
+failed to get cpuid string for PMU hisi_sccl1_l3c15
+failed to get cpuid string for PMU hisi_sccl5_l3c31
+failed to get cpuid string for PMU hisi_sccl7_l3c22
+failed to get cpuid string for PMU hisi_sccl3_l3c7
+2.48796 7.31630 2.48883 7.29654 2.48906 7.29775 2.30548 7.32560 2.77526 7.29965 
+ Performance counter stats for './e2/my_eigen_matmult 3000' (5 runs):
+
+           9818.75 msec task-clock                #    0.976 CPUs utilized            ( +-  0.73% )
+                50      context-switches          #    0.005 K/sec                    ( +-  8.52% )
+                 0      cpu-migrations            #    0.000 K/sec                  
+              4548      page-faults               #    0.463 K/sec                    ( +-  0.00% )
+       25528421234      cycles                    #    2.600 GHz                      ( +-  0.73% )
+       29288682749      instructions              #    1.15  insn per cycle           ( +-  0.00% )
+   <not supported>      branches                                                    
+           1557761      branch-misses                                                 ( +-  0.36% )
+
+            10.062 +- 0.196 seconds time elapsed  ( +-  1.95% )
+
+-----------------------
