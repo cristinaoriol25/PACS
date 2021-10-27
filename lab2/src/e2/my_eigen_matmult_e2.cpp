@@ -36,8 +36,8 @@ void testEigen(const size_t N) {
 
   // cout << "Seconds: " << timestamp.tv_sec << endl
   //     << "Microseconds: " << timestamp.tv_usec << endl;
-  std::cout << fixed << setprecision(5) << t_init*1e-6 << " "
-            << fixed << setprecision(5) << t_mult*1e-6 << " ";
+  std::cout << fixed << setprecision(5) << t_init << " "
+            << fixed << setprecision(5) << t_mult << " ";
 }
 
 

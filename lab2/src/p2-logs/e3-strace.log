@@ -38,7 +38,8 @@ strace: Process 12324 detached
 100.00    0.000824                  2232        25 total
 -----------------------
 sequential with CLOCK:
-0.36000 218.56000 % time     seconds  usecs/call     calls    errors syscall
+0.36000 218.56000
+% time     seconds  usecs/call     calls    errors syscall
 ------ ----------- ----------- --------- --------- ----------------
  93.47    0.010952           3      3437           brk
   2.00    0.000234          12        20        15 open
@@ -58,7 +59,8 @@ sequential with CLOCK:
 100.00    0.011717                  3519        25 total
 -----------------------
 sequential with gettimeofday:
-0.43133 123.92006 % time     seconds  usecs/call     calls    errors syscall
+0.43133 123.92006
+% time     seconds  usecs/call     calls    errors syscall
 ------ ----------- ----------- --------- --------- ----------------
  98.23    0.005665           2      3437           brk
   1.04    0.000060           6        10           mprotect
@@ -77,7 +79,8 @@ sequential with gettimeofday:
 100.00    0.005767                  3515        25 total
 -----------------------
 my_eigen_matmult with CLOCK:
-0.13000 3.98000 % time     seconds  usecs/call     calls    errors syscall
+0.13000 3.98000
+% time     seconds  usecs/call     calls    errors syscall
 ------ ----------- ----------- --------- --------- ----------------
  82.28    0.000390          56         7           munmap
   7.17    0.000034           3        10           mprotect
@@ -97,7 +100,8 @@ my_eigen_matmult with CLOCK:
 100.00    0.000474                    97        25 total
 -----------------------
 my_eigen_matmult with gettimeofday:
-0.00000 0.00000 % time     seconds  usecs/call     calls    errors syscall
+0.00000 0.00000
+% time     seconds  usecs/call     calls    errors syscall
 ------ ----------- ----------- --------- --------- ----------------
  42.68    0.000598          85         7           munmap
  20.84    0.000292          15        20        15 open

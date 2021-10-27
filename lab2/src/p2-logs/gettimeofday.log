@@ -41,24 +41,6 @@ sequential 1500 0.11095 11.71307 11.79 0.03 11.86
 sequential 1500 0.11338 11.53418 11.61 0.03 11.69
 sequential 2000 0.17293 50.65619 50.79 0.04 50.88
 sequential 2000 0.17305 50.43563 50.57 0.04 50.65
-sequential 2000 19.84 0.03 19.88
-sequential 2000 1.30 0.03 1.34
-sequential 2000 0.43 0.02 0.46
-sequential 2000 0.47 0.02 0.50
-sequential 2000 0.45 0.02 0.48
-sequential 2000 0.40 0.02 0.42
-sequential 2000 0.39 0.01 0.41
-sequential 2000 0.35 0.01 0.37
-sequential 3000 0.54 0.06 0.62
-sequential 3000 0.23 0.03 0.26
-sequential 3000 0.28 0.03 0.32
-sequential 3000 0.25 0.04 0.29
-sequential 3000 0.30 0.04 0.35
-sequential 3000 0.26 0.03 0.30
-sequential 3000 0.25 0.02 0.29
-sequential 3000 0.29 0.04 0.33
-sequential 3000 0.40 0.05 0.45
-sequential 3000 0.44 0.05 0.49
 my_eigen_matmult 800 0.00000 0.00000 0.10 0.01 0.15
 my_eigen_matmult 800 0.00000 0.00000 0.11 0.01 0.15
 my_eigen_matmult 800 0.00000 0.00000 0.10 0.01 0.14
