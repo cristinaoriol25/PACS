@@ -2,7 +2,7 @@
 sizes="800 1000 1200 1500 2000 3000"
 executables="sequential my_eigen_matmult"
 repeat=10
-out="logs/comparison.log"
+out="logs/gettimeofday.log"
 
 echo "method N clk(ini) clk(mult) User(s) System(s) Real(s)" > ${out}
 
